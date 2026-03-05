@@ -126,3 +126,29 @@ display: flex; /* Ativa o layout flexível */
  text-align: center; /* Centraliza o texto dentro dos artigos */
  min-height: 100vh; /* Garante altura mínima de uma janela (ecrã) */
 }
+
+/* Estilos para o menu lateral fixo (sidebar) */
+.sidebar {
+ width: 250px; /* Largura da barra lateral */
+ height: 100vh; /* Altura total da janela */
+ background-color: #343a40; /* Fundo escuro */
+ color: white; /* Texto branco */
+ padding: 100px 20px 20px; /* Espaçamento interno */
+ position: fixed; /* Fixa à esquerda do ecrã */
+ left: 0;
+ top: 0;
+ bottom: 0;
+}
+/* Estilos para os links dentro da sidebar */
+.sidebar a {
+ display: flex; /* Organização horizontal interna */
+ align-items: center; /* Alinhamento vertical ao centro */
+ color: white; /* Cor do texto dos links */
+ text-decoration: none; /* Remove o sublinhado */
+ padding: 10px; /* Espaçamento interno */
+ border-radius: 5px; /* Cantos arredondados */
+ transition: background 0.3s; /* Animação ao passar o rato */
+}
+.sidebar a:hover {
+ background-color: rgb(57, 86, 179);
+} 
