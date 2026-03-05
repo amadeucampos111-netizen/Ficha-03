@@ -152,3 +152,11 @@ display: flex; /* Ativa o layout flexível */
 .sidebar a:hover {
  background-color: rgb(57, 86, 179);
 } 
+
+/* Ajuste do conteúdo para não ficar sob a navbar */
+.content {
+ margin-left: 250px; /* Afasta o conteúdo da sidebar (largura da sidebar) */
+ margin-top: 70px; /* Espaço para não ficar por baixo da navbar */
+ flex-grow: 1; /* Permite que o conteúdo cresça conforme o espaço disponível */
+ padding: 20px; /* Espaçamento interno para melhor leitura */
+}
